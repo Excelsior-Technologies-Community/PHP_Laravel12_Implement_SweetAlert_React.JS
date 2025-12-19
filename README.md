@@ -137,17 +137,3 @@ React components use .jsx extension
 SweetAlert2 is installed via NPM (recommended approach)
 
 jQuery is not required for React projects
-
-Common Error Fix
-Error
-@vitejs/plugin-react can't detect preamble
-
-Solution
-
-Ensure file extension is .jsx
-
-Add @viteReactRefresh in Blade file
-
-Enable react() plugin in vite.config.js
-
-Clear Vite cache and restart the dev server
